@@ -20,6 +20,9 @@ h1,h2,h3,p {
   --color-social-icon: #f4f4fd;
   --customers-icon-color: #8e8f99;
   --title-media-color: #ffffff;
+  --color-text-label: #8e8f99;
+  --background-color-checkbox: #404bbf;
+  --privacy-link-color: #4d5ae5;
 }
 
 body {
@@ -682,7 +685,6 @@ body {
   background: rgba(46, 47, 66, 0.4);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  padding: 72px 24px 24px 24px;
 }
 .is-hidden {
   visibility: hidden;
@@ -701,6 +703,7 @@ body {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 72px 24px 24px 24px;
 }
 .btn-close {
   position: absolute;
@@ -813,6 +816,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--color-text-label);
+
 }
 
 .input-container {
