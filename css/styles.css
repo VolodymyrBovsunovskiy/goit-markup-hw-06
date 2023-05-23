@@ -890,6 +890,18 @@ body {
   margin-bottom: 24px;
 }
 
+.modal-fake-checkbox {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 8px;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #2e2f42;
+  border-radius: 2px;
+  fill: transparent;
+}
+
 .modal-form-check:checked + .modal-label-check .modal-fake-checkbox {
   background-color: var(--background-color-checkbox);
   border: none;
@@ -941,3 +953,4 @@ body {
 .modal-submit-btn:focus {
   background-color: #404bbf;
 }
+
